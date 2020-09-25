@@ -1,18 +1,37 @@
 <!--- One # means an <h1> heading --->
-# Title
+# Heading H1
+<!--- Two # means an <h2> heading --->
+## Heading H2
+<!--- Three # means an <h3> heading --->
+### Heading H3
+<!--- Four # means an <h4> heading --->
+#### Heading H4
+<!--- Five # means an <h5> heading --->
+##### Heading H5
+<!--- Six # means an <h6> heading --->
+###### Heading H6
+
+
 --------------------------------------------------------------------------------
-## Fri 2020-09-25 13:37:00
---------------------------------------------------------------------------------
-### Chapter
---------------------------------------------------------------------------------
-#### Section
---------------------------------------------------------------------------------
-##### Topic
---------------------------------------------------------------------------------
-###### 1.2.3.4-Page-Name.md
+
 ================================================================================
 
-*1.2.3.4 – Page Name*
+<!--- strings encapsulated by asterisks or underscores turn italic --->
+*String encapsulated by Asterisks*
+_String encapsulated by Underscores_
+
+<!--- strings encapsulated by double asterisks or double underscores turn bold --->
+**String encapsulated by Double Asterisks**
+__String encapsulated by Double Underscores__
+
+<!--- strings encapsulated by double asterisks or double underscores turn bold italic--->
+_**String encapsulated by Double Asterisks and Underscores**_
+*__String encapsulated by Double Underscores and Asterisks__*
+***String encapsulated by Triple Asterisks***
+___String encapsulated by Triple Underscores___
+
+
+
 
 The first paragraph.
 
