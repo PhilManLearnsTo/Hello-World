@@ -1,3 +1,5 @@
+Notes on Github Markdown (.md)
+
 <!--- One # means an <h1> heading --->
 # Heading H1
 <!--- Two # means an <h2> heading --->
@@ -18,16 +20,21 @@
 
 <!--- strings encapsulated by asterisks or underscores turn italic --->
 *String encapsulated by Asterisks*
+
 _String encapsulated by Underscores_
 
 <!--- strings encapsulated by double asterisks or double underscores turn bold --->
 **String encapsulated by Double Asterisks**
+<!--- strings encapsulated by double asterisks or double underscores turn bold --->
 __String encapsulated by Double Underscores__
 
-<!--- strings encapsulated by double asterisks or double underscores turn bold italic--->
+<!--- strings encapsulated by double asterisks and single underscores turn bold italic--->
 _**String encapsulated by Double Asterisks and Underscores**_
+<!--- strings encapsulated by double underscores or single asterisks turn bold italic--->
 *__String encapsulated by Double Underscores and Asterisks__*
+<!--- strings encapsulated by triple asterisks turn bold italic--->
 ***String encapsulated by Triple Asterisks***
+<!--- strings encapsulated by triple underscores turn bold italic--->
 ___String encapsulated by Triple Underscores___
 
 
