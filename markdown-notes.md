@@ -150,9 +150,14 @@ Every sub point is marked up with an hyphen, preceded by TWO character spaces.
 
 <!--- This example is image linked by it's internet URL --->
 This example is image linked by it's internet URL:
-![kestrel](https://github.com/PhilManLearnsTo/Hello-World/blob/master/MAN_0389-lo-res.jpg)
+![kestrel](https://github.com/PhilManLearnsTo/Hello-World/images/MAN_0389-lo-res.jpg)
 
+### Image Example 2
+-------------
 
+<!--- This example is image linked by it's internet URL --->
+This example is image linked by it's internet URL:
+![kestrel](images/MAN_9988-lo-res.jpg)
 
 - [x] some item
 - [ ] another item with meta info [//]: # (attempt at meta info as inline comment)
@@ -161,4 +166,3 @@ This example is image linked by it's internet URL:
 [//]: # (This may be the most platform independent comment)
 [//]: # (https://stackoverflow.com/questions/4823468/comments-in-markdown)
 [](and another comment down here too using the empty link method)
-
