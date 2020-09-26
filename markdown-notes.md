@@ -18,24 +18,24 @@ Notes on Github Markdown (.md)
 
 ================================================================================
 
-<!--- strings encapsulated by asterisks or underscores turn italic --->
-*String encapsulated by Asterisks*
+<!--- strings encapsulated by asterisks become italicized --->
+*String encapsulated by asterisks (\*) become italicized*
+<!--- strings encapsulated by underscores become italicized --->
+_String encapsulated by underscores (\_) become italicized_
 
-_String encapsulated by Underscores_
+<!--- strings encapsulated by double asterisks or double underscores become bold --->
+**String encapsulated by double asterisks (\*\*) become bold**
+<!--- strings encapsulated by double asterisks or double underscores become bold --->
+__String encapsulated by double underscores (\_\_) become bold__
 
-<!--- strings encapsulated by double asterisks or double underscores turn bold --->
-**String encapsulated by Double Asterisks**
-<!--- strings encapsulated by double asterisks or double underscores turn bold --->
-__String encapsulated by Double Underscores__
-
-<!--- strings encapsulated by double asterisks and single underscores turn bold italic--->
-_**String encapsulated by Double Asterisks and Underscores**_
-<!--- strings encapsulated by double underscores or single asterisks turn bold italic--->
-*__String encapsulated by Double Underscores and Asterisks__*
-<!--- strings encapsulated by triple asterisks turn bold italic--->
-***String encapsulated by Triple Asterisks***
-<!--- strings encapsulated by triple underscores turn bold italic--->
-___String encapsulated by Triple Underscores___
+<!--- strings encapsulated by double asterisks and single underscores become bold italic--->
+_**String encapsulated by double asterisks (\*\*) and single underscores (\_) become bold italic**_
+<!--- strings encapsulated by double underscores or single asterisks become bold italic--->
+*__String encapsulated by double underscores (\_\_) and single asterisks (\*) become bold italic__*
+<!--- strings encapsulated by triple asterisks become bold italic--->
+***String encapsulated by triple asterisks (\*\*\*) become bold italic***
+<!--- strings encapsulated by triple underscores become bold italic--->
+___String encapsulated by triple underscores (\_\_\_) become bold italic___
 
 
 
