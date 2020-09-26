@@ -59,7 +59,7 @@ Mark Twain said:
 Donut Chump ~~said~~:
 > The secret of getting ahead is cheating and not giving a f*ck.
 
-The Nobel Prize committee spokesman said:
+~~The Nobel Prize committee spokesman said~~:
 > ~~We should definitely give this year's Nobel Peace Prize to Donut Chump.~~
 
 
@@ -173,12 +173,13 @@ Every sub point is marked up with an hyphen, preceded by TWO character spaces.
 ### Task List Example 2
 -----------------------
 
-- [x] @mentions, \#refs, \[links\](), \**formatting\**, and <del>tags</del> supported
+- [x] \@mentions, \#refs, \[links\](), \**formatting\**, and \<del>tags\</del> supported
 - [x] list syntax required (any unordered or ordered list supported)
 - [x] this is a complete item
 - [ ] this is an incomplete item
 
-If you include a task list in the first comment of an Issue, you will get a handy progress indicator in your issue list. It also works in Pull Requests!
+If you include a task list in the first comment of an Issue, you will get a handy progress indicator in your issue list.
+It also works in Pull Requests!
 
 # Tables
 --------
