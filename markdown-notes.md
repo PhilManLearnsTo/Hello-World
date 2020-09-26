@@ -48,7 +48,7 @@ _**Strings encapsulated by double asterisks (\*\*) and single underscores (\_) b
 # Lists
 -------
 
-### Example 1
+### List Example 1
 -------------
 
 <!--- This example is an ordered or numbered list. --->
@@ -80,7 +80,7 @@ Every sub point is marked up as "1.", not as 'i", "ii", "iii" , etc.
    1. Five (iv)
    1. Five (v)
 
-### Example 2
+### List Example 2
 -------------
 
 <!--- This example is an unordered list --->
@@ -111,7 +111,7 @@ Every sub point is marked up with an asterisk, preceded by TWO character spaces.
   * Five (iv)
   * Five (v)
 
-### Example 3
+### List Example 3
 -------------
 
 <!--- This example is an unordered list --->
@@ -142,7 +142,15 @@ Every sub point is marked up with an hyphen, preceded by TWO character spaces.
   - Five (iv)
   - Five (v)
 
+# Images
+-------
 
+### Image Example 1
+-------------
+
+<!--- This example is image linked by it's internet URL --->
+This example is image linked by it's internet URL:
+![kestrel](https://github.com/PhilManLearnsTo/Hello-World/blob/master/MAN_0389-lo-res.jpg)
 
 
 
