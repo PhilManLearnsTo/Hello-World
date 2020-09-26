@@ -85,32 +85,31 @@ Every sub item is marked up as "1.", not as 'i", "ii", "iii" , etc.\
 
 <!--- This example is an unordered list --->
 This example is an unordered list.
-
-Every sub item is marked up as "1.", not as 'i", "ii", "iii" , etc.
-
+Each item is started with an asterisk.
+Every sub item is marked up as "1.", not as 'i", "ii", "iii" , etc.\
 (This seems counterintuitive to me)
 
 <!--- The sub item cannot be denoted by any character other than 1 which seems stupid --->
-*. One
-   *. One (i)
-*. Two
-   1. Two (i)
-   1. Two (ii)
-3. Three
-   1. Three (i)
-   1. Three (ii)
-   1. Three (iii)
-4. Four
-   1. Four (i)
-   1. Four (ii)
-   1. Four (iii)
-   1. Four (iv)
-5. Five
-   1. Five (i)
-   1. Five (ii)
-   1. Five (iii)
-   1. Five (iv)
-   1. Five (v)
+* One
+   * One (i)
+* Two
+   * Two (i)
+   * Two (ii)
+* Three
+   * Three (i)
+   * Three (ii)
+   8 Three (iii)
+* Four
+   * Four (i)
+   * Four (ii)
+   * Four (iii)
+   * Four (iv)
+* Five
+   * Five (i)
+   * Five (ii)
+   * Five (iii)
+   * Five (iv)
+   * Five (v)
 
 
 Ordered
