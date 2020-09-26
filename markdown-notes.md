@@ -191,15 +191,23 @@ If you include a task list in the first comment of an Issue, you will get a hand
 <!--- You can create tables by assembling a list of words --->
 <!--- and dividing them with hyphens - (for the first row), --->  
 <!--- and then separating each column with a pipe |: --->
+You can create tables by assembling a list of words and dividing them with hyphens - (for the first row), and then separating each column with a pipe |:
 
 First Header | Second Header
 ------------ | -------------
 Content from cell 1 | Content from cell 2
 Content in the first column | Content in the second column
 
+### Table List Example 1
+------------------------
+<!--- Each row begins and ends with a pipe | --->
+<!--- Each column is divided by a pipe | --->
+With plugins it is also possible to begin & end each row with a pipe |
 
-
-
+| First Header        | Second Header       | Third Header        |
+| ------------------- | ------------------- | ------------------- |
+| Content from cell 1 | Content from cell 2 | Content from cell 3 |
+| Content 1           | Content 2           | Content 3           |
 
 # Images
 -------
@@ -216,7 +224,8 @@ Content in the first column | Content in the second column
 -------------
 
 <!--- This example is image linked by it's internet URL --->
-This example is image linked by it's internet URL:
+This example image is linked by it's internet URL:
+
 "https://github.com/PhilManLearnsTo/Hello-World/blob/master/images/MAN_0389-lo-res.jpg"
 ![kestrel](https://github.com/PhilManLearnsTo/Hello-World/blob/master/images/MAN_0389-lo-res.jpg)
 
@@ -224,7 +233,8 @@ This example is image linked by it's internet URL:
 -------------
 
 <!--- This example is image linked by it's internet URL --->
-This example is image linked by local path:
+This example image is linked by local path:
+
 "images/MAN_9988-lo-res.jpg"
 ![cormorant](images/MAN_9988-lo-res.jpg)
 
@@ -235,27 +245,11 @@ This example is image linked by local path:
 <!--- Firstly put the "Alternative Text" enclosed by square braces "[]" --->
 <!--- Note: the "Alternative Text" is optional. --->
 <!--- Next, encapsulate the URL in parentheses "()" --->
-To include a hyperlink to a URL use the format: "[Alt Text](url)"
-e.g. [GitHub](https://www.github.com)
+To include a hyperlink to a URL use the format: "\[Alt Text\]\(URL\)"
+
+e.g. [GitHub Website](https://www.github.com)
 <!--- If you only encapsulate the URL in parentheses "()" --->
 <!--- GitHub will automagically recognise the link --->
 Or you can just enter the URL with no special tagging:
+
 e.g. https://www.github.com
-
-
-
-
-
-
-
-
-
-
-
-- [x] some item
-- [ ] another item with meta info [//]: # (attempt at meta info as inline comment)
-- [ ] using @ig0774's recomendation [](with an inline comment hidden inside an empty link)
-
-[//]: # (This may be the most platform independent comment)
-[//]: # (https://stackoverflow.com/questions/4823468/comments-in-markdown)
-[](and another comment down here too using the empty link method)
