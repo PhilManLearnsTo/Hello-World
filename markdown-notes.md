@@ -57,7 +57,7 @@ This example is an ordered or numbered list.
 Each item is started with a number.
 <!--- Every sub item is marked up as "1.", not as 'i", "ii", "iii" , etc. --->
 Every sub item is marked up as "1.", not as 'i", "ii", "iii" , etc.
-<!--- (This seems counterintuitive to me) --->
+<!--- (The sub items must be preceded by MORE than two character spaces.) --->
 
 1. One
    1. One (i)
@@ -87,8 +87,8 @@ Every sub item is marked up as "1.", not as 'i", "ii", "iii" , etc.
 This example is an unordered list.
 <!--- Each item is started with an asterisk. --->
 Each item is started with an asterisk.
-<!--- Every sub item is marked up with an asterisk, preceded by two character spaces. --->
-Every sub item is marked up with an asterisk, preceded by two character spaces.
+<!--- Every sub item is marked up with an asterisk, preceded by TWO character spaces. --->
+Every sub item is marked up with an asterisk, preceded by TWO character spaces.
 
 * One
   * One (i)
@@ -111,21 +111,36 @@ Every sub item is marked up with an asterisk, preceded by two character spaces.
   * Five (iv)
   * Five (v)
 
+### Example 3
+-------------
 
-Ordered
+<!--- This example is an unordered list --->
+This example is also an unordered list.
+<!--- Each item is started with an asterisk. --->
+Each item is started with a hyphen or dash.
+<!--- Every sub item is marked up with an asterisk, preceded by TWO character spaces. --->
+Every sub item is marked up with an hyphen, preceded by TWO character spaces.
 
-1. Item 1
-1. Item 2
-1. Item 3
-   1. Item 3a
-   1. Item 3b
-
-Sometimes you want bullet points:
-
-* Start a line with a star
-* Profit!
-
-Alternatively,
+- One
+  - One (i)
+- Two
+  - Two (i)
+  - Two (ii)
+- Three
+  - Three (i)
+  - Three (ii)
+  - Three (iii)
+- Four
+  - Four (i)
+  - Four (ii)
+  - Four (iii)
+  - Four (iv)
+- Five
+  - Five (i)
+  - Five (ii)
+  - Five (iii)
+  - Five (iv)
+  - Five (v)
 
 - Dashes work just as well
 - And if you have sub points, put two spaces before the dash or star:
