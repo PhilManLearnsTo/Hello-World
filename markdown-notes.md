@@ -150,7 +150,7 @@ Every sub point is marked up with an hyphen, preceded by TWO character spaces.
 
 <!--- This example is image linked by it's internet URL --->
 This example is image linked by it's internet URL:
-![kestrel](https://github.com/PhilManLearnsTo/Hello-World/images/MAN_0389-lo-res.jpg)
+![kestrel](https://github.com/PhilManLearnsTo/Hello-World/blob/master/images/MAN_0389-lo-res.jpg)
 
 ### Image Example 2
 -------------
