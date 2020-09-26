@@ -1,41 +1,143 @@
-Notes on Github Markdown (.md)
+### 2020-09-25
+###### [Phil MAN Learns to:](https://github.com/PhilManLearnsTo)
+###### Github Markdown (.md)
+###### [From the \'Mastering Markdown\' document at the GitHub Guides](https://guides.github.com/features/mastering-markdown/)
 
-<!--- One # means an <h1> heading --->
+
+# Headers
+---------
+
+<!--- One # is an <h1> tag --->
 # Heading H1
-<!--- Two # means an <h2> heading --->
+<!--- Two # is an <h2> tag --->
 ## Heading H2
-<!--- Three # means an <h3> heading --->
+<!--- Three # is an <h3> tag --->
 ### Heading H3
-<!--- Four # means an <h4> heading --->
+<!--- Four # is an <h4> tag --->
 #### Heading H4
-<!--- Five # means an <h5> heading --->
+<!--- Five # is an <h5> tag --->
 ##### Heading H5
-<!--- Six # means an <h6> heading --->
+<!--- Six # is an <h6> tag --->
 ###### Heading H6
-
-
 --------------------------------------------------------------------------------
 
 ================================================================================
 
+# _Emphasis_
+------------
+
 <!--- strings encapsulated by asterisks become italicized --->
-*String encapsulated by asterisks (\*) become italicized*
+*strings encapsulated by asterisks (\*) become italicized*
 <!--- strings encapsulated by underscores become italicized --->
-_String encapsulated by underscores (\_) become italicized_
+strings encapsulated by underscores (\_) become italicized_
 
 <!--- strings encapsulated by double asterisks or double underscores become bold --->
-**String encapsulated by double asterisks (\*\*) become bold**
+**Strings encapsulated by double asterisks (\*\*) become bold**
 <!--- strings encapsulated by double asterisks or double underscores become bold --->
-__String encapsulated by double underscores (\_\_) become bold__
+__Strings encapsulated by double underscores (\_\_) become bold__
 
 <!--- strings encapsulated by triple asterisks become bold italic--->
-***String encapsulated by triple asterisks (\*\*\*) become bold italic***
+***Strings encapsulated by triple asterisks (\*\*\*) become bold italic***
 <!--- strings encapsulated by triple underscores become bold italic--->
-___String encapsulated by triple underscores (\_\_\_) become bold italic___
+___Strings encapsulated by triple underscores (\_\_\_) become bold italic___
 <!--- strings encapsulated by double asterisks and single underscores become bold italic--->
-_**String encapsulated by double asterisks (\*\*) and single underscores (\_) become bold italic**_
+_**Strings encapsulated by double asterisks (\*\*) and single underscores (\_) become bold italic**_
 <!--- strings encapsulated by double underscores or single asterisks become bold italic--->
-*__String encapsulated by double underscores (\_\_) and single asterisks (\*) become bold italic__*
+*__Strings encapsulated by double underscores (\_\_) and single asterisks (\*) become bold italic__*
+
+# Lists
+-------
+
+### Example 1
+-------------
+
+<!--- This example is an ordered or numbered list --->
+This example is an ordered or numbered list.\
+Each item is started with a number.\
+Every sub item is marked up as "1.", not as 'i", "ii", "iii" , etc.\
+(This seems counterintuitive to me)
+
+<!--- The sub item cannot be denoted by any character other than 1 which seems stupid --->
+1. One
+   1. One (i)
+2. Two
+   1. Two (i)
+   1. Two (ii)
+3. Three
+   1. Three (i)
+   1. Three (ii)
+   1. Three (iii)
+4. Four
+   1. Four (i)
+   1. Four (ii)
+   1. Four (iii)
+   1. Four (iv)
+5. Five
+   1. Five (i)
+   1. Five (ii)
+   1. Five (iii)
+   1. Five (iv)
+   1. Five (v)
+
+
+### Example 2
+-------------
+
+<!--- This example is an unordered list --->
+This example is an unordered list.
+
+Every sub item is marked up as "1.", not as 'i", "ii", "iii" , etc.
+
+(This seems counterintuitive to me)
+
+<!--- The sub item cannot be denoted by any character other than 1 which seems stupid --->
+*. One
+   *. One (i)
+*. Two
+   1. Two (i)
+   1. Two (ii)
+3. Three
+   1. Three (i)
+   1. Three (ii)
+   1. Three (iii)
+4. Four
+   1. Four (i)
+   1. Four (ii)
+   1. Four (iii)
+   1. Four (iv)
+5. Five
+   1. Five (i)
+   1. Five (ii)
+   1. Five (iii)
+   1. Five (iv)
+   1. Five (v)
+
+
+Ordered
+
+1. Item 1
+1. Item 2
+1. Item 3
+   1. Item 3a
+   1. Item 3b
+
+Sometimes you want bullet points:
+
+* Start a line with a star
+* Profit!
+
+Alternatively,
+
+- Dashes work just as well
+- And if you have sub points, put two spaces before the dash or star:
+  - Like this
+  - And this
+
+
+
+
+
+
 
 
 
