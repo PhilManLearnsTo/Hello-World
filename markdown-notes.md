@@ -54,9 +54,9 @@ _**Strings encapsulated by double asterisks (\*\*) and single underscores (\_) b
 <!--- This example is an ordered or numbered list. --->
 This example is an ordered or numbered list.
 <!--- Each item is started with a number. --->
-Each item is started with a number.
+Each bullet point is started with a number.
 <!--- Every sub item is marked up as "1.", not as 'i", "ii", "iii" , etc. --->
-Every sub item is marked up as "1.", not as 'i", "ii", "iii" , etc.
+Every sub point is marked up as "1.", not as 'i", "ii", "iii" , etc.
 <!--- (The sub items must be preceded by MORE than two character spaces.) --->
 
 1. One
@@ -86,9 +86,9 @@ Every sub item is marked up as "1.", not as 'i", "ii", "iii" , etc.
 <!--- This example is an unordered list --->
 This example is an unordered list.
 <!--- Each item is started with an asterisk. --->
-Each item is started with an asterisk.
+Each point is started with an asterisk.
 <!--- Every sub item is marked up with an asterisk, preceded by TWO character spaces. --->
-Every sub item is marked up with an asterisk, preceded by TWO character spaces.
+Every sub point is marked up with an asterisk, preceded by TWO character spaces.
 
 * One
   * One (i)
@@ -117,9 +117,9 @@ Every sub item is marked up with an asterisk, preceded by TWO character spaces.
 <!--- This example is an unordered list --->
 This example is also an unordered list.
 <!--- Each item is started with an asterisk. --->
-Each item is started with a hyphen or dash.
+Each point is started with a hyphen or dash.
 <!--- Every sub item is marked up with an asterisk, preceded by TWO character spaces. --->
-Every sub item is marked up with an hyphen, preceded by TWO character spaces.
+Every sub point is marked up with an hyphen, preceded by TWO character spaces.
 
 - One
   - One (i)
@@ -142,27 +142,9 @@ Every sub item is marked up with an hyphen, preceded by TWO character spaces.
   - Five (iv)
   - Five (v)
 
-- Dashes work just as well
-- And if you have sub points, put two spaces before the dash or star:
-  - Like this
-  - And this
 
 
 
-
-
-
-
-
-
-
-The first paragraph.
-
-The first sentence.
-
-The second sentence.
-
-The third sentence.
 
 - [x] some item
 - [ ] another item with meta info [//]: # (attempt at meta info as inline comment)
