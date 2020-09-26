@@ -47,14 +47,27 @@ _**Strings encapsulated by double asterisks (\*\*) and single underscores (\_) b
 
 # ~~Strikethrough~~
 -------------------
-
+<!--- strings encapsulated by double tildes will appear crossed out.--->
 Any word wrapped with two tildes \~\~ (like ~~this~~) will appear crossed out.
+
+# Blockquotes
+-------------
+
+Mark Twain said:
+> The secret of getting ahead is getting started.
+
+Donut Chump ~~said~~:
+> The secret of getting ahead is cheating and not giving a f*ck.
+
+The Nobel Prize committee spokesman said:
+> ~~We should definitely give this year's Nobel Peace Prize to Donut Chump.~~
+
 
 # Lists
 -------
 
 ### List Example 1
--------------
+------------------
 
 <!--- This example is an ordered or numbered list. --->
 This example is an ordered or numbered list.
@@ -86,7 +99,7 @@ Every sub point is marked up as "1.", not as 'i", "ii", "iii" , etc.
    1. Five (v)
 
 ### List Example 2
--------------
+------------------
 
 <!--- This example is an unordered list --->
 This example is an unordered list.
@@ -117,7 +130,7 @@ Every sub point is marked up with an asterisk, preceded by TWO character spaces.
   * Five (v)
 
 ### List Example 3
--------------
+------------------
 
 <!--- This example is an unordered list --->
 This example is also an unordered list.
@@ -147,6 +160,47 @@ Every sub point is marked up with an hyphen, preceded by TWO character spaces.
   - Five (iv)
   - Five (v)
 
+# Task Lists
+------------
+
+### Task List Example 1
+-----------------------
+<!--- Start with a hyphen, then a space, then a space or an x --->
+<!--- encapsulated by square braces --->
+- [x] This is a complete item
+- [ ] This is an incomplete item
+
+### Task List Example 2
+-----------------------
+
+- [x] This is a complete item
+- [ ] This is an incomplete item
+
+- [x] @mentions, #refs, [links](), **formatting**, and <del>tags</del> supported
+- [x] list syntax required (any unordered or ordered list supported)
+- [x] this is a complete item
+- [ ] this is an incomplete item
+
+If you include a task list in the first comment of an Issue, you will get a handy progress indicator in your issue list. It also works in Pull Requests!
+
+# Tables
+--------
+
+### Table List Example 1
+------------------------
+<!--- You can create tables by assembling a list of words --->
+<!--- and dividing them with hyphens - (for the first row), --->  
+<!--- and then separating each column with a pipe |: --->
+
+First Header | Second Header
+------------ | -------------
+Content from cell 1 | Content from cell 2
+Content in the first column | Content in the second column
+
+
+
+
+
 # Images
 -------
 
@@ -163,8 +217,8 @@ Every sub point is marked up with an hyphen, preceded by TWO character spaces.
 
 <!--- This example is image linked by it's internet URL --->
 This example is image linked by it's internet URL:
-"https://github.com/PhilManLearnsTo/Hello-World/images/MAN_0389-lo-res.jpg"
-![kestrel](https://github.com/PhilManLearnsTo/Hello-World/images/MAN_0389-lo-res.jpg)
+"https://github.com/PhilManLearnsTo/Hello-World/blob/master/images/MAN_0389-lo-res.jpg"
+![kestrel](https://github.com/PhilManLearnsTo/Hello-World/blob/master/images/MAN_0389-lo-res.jpg)
 
 ### Image Example 2
 -------------
