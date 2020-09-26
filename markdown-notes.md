@@ -51,16 +51,14 @@ _**Strings encapsulated by double asterisks (\*\*) and single underscores (\_) b
 ### Example 1
 -------------
 
-<!--- This example is an ordered or numbered list --->
-This example is an ordered or numbered list.\
+<!--- This example is an ordered or numbered list. --->
+This example is an ordered or numbered list.
 <!--- Each item is started with a number. --->
-Each item is started with a number.\
+Each item is started with a number.
 <!--- Every sub item is marked up as "1.", not as 'i", "ii", "iii" , etc. --->
-Every sub item is marked up as "1.", not as 'i", "ii", "iii" , etc.\
+Every sub item is marked up as "1.", not as 'i", "ii", "iii" , etc.
 <!--- (This seems counterintuitive to me) --->
 
-
-<!--- The sub item cannot be denoted by any character other than 1 which seems stupid --->
 1. One
    1. One (i)
 2. Two
@@ -82,37 +80,36 @@ Every sub item is marked up as "1.", not as 'i", "ii", "iii" , etc.\
    1. Five (iv)
    1. Five (v)
 
-
 ### Example 2
 -------------
 
 <!--- This example is an unordered list --->
 This example is an unordered list.
+<!--- Each item is started with an asterisk. --->
 Each item is started with an asterisk.
-Every sub item is marked up as "1.", not as 'i", "ii", "iii" , etc.\
-(This seems counterintuitive to me)
+<!--- Every sub item is marked up with an asterisk, preceded by two character spaces. --->
+Every sub item is marked up with an asterisk, preceded by two character spaces.
 
-<!--- The sub item cannot be denoted by any character other than 1 which seems stupid --->
 * One
-   * One (i)
+  * One (i)
 * Two
-   * Two (i)
-   * Two (ii)
+  * Two (i)
+  * Two (ii)
 * Three
-   * Three (i)
-   * Three (ii)
-   8 Three (iii)
+  * Three (i)
+  * Three (ii)
+  * Three (iii)
 * Four
-   * Four (i)
-   * Four (ii)
-   * Four (iii)
-   * Four (iv)
+  * Four (i)
+  * Four (ii)
+  * Four (iii)
+  * Four (iv)
 * Five
-   * Five (i)
-   * Five (ii)
-   * Five (iii)
-   * Five (iv)
-   * Five (v)
+  * Five (i)
+  * Five (ii)
+  * Five (iii)
+  * Five (iv)
+  * Five (v)
 
 
 Ordered
