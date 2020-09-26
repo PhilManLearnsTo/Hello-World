@@ -45,6 +45,11 @@ _**Strings encapsulated by double asterisks (\*\*) and single underscores (\_) b
 <!--- strings encapsulated by double underscores or single asterisks become bold italic--->
 *__Strings encapsulated by double underscores (\_\_) and single asterisks (\*) become bold italic__*
 
+# ~~Strikethrough~~
+-------------------
+
+Any word wrapped with two tildes \~\~ (like ~~this~~) will appear crossed out.
+
 # Lists
 -------
 
@@ -145,21 +150,53 @@ Every sub point is marked up with an hyphen, preceded by TWO character spaces.
 # Images
 -------
 
+<!--- To format an image URL: ![Alt Text](url) --->
+<!--- Begin with an exclamation mark "!" --->
+<!--- Next put the "Alternative Text" enclosed by square braces "[]" --->
+<!--- Note: the "Alternative Text" is optional. --->
+<!--- The "square braces[] are mandatory. --->
+<!--- Lastly, encapsulate the URL in parentheses "()" --->
+ To include a link to an image use the format: "![Alt Text](url)"
+
 ### Image Example 1
 -------------
 
 <!--- This example is image linked by it's internet URL --->
 This example is image linked by it's internet URL:
-(\https://github.com/PhilManLearnsTo/Hello-World/blob/master/images/MAN_0389-lo-res.jpg)
-![kestrel](https://github.com/PhilManLearnsTo/Hello-World/blob/master/images/MAN_0389-lo-res.jpg)
+"https://github.com/PhilManLearnsTo/Hello-World/images/MAN_0389-lo-res.jpg"
+![kestrel](https://github.com/PhilManLearnsTo/Hello-World/images/MAN_0389-lo-res.jpg)
 
 ### Image Example 2
 -------------
 
 <!--- This example is image linked by it's internet URL --->
 This example is image linked by local path:
-(\images/MAN_9988-lo-res.jpg)
+"images/MAN_9988-lo-res.jpg"
 ![cormorant](images/MAN_9988-lo-res.jpg)
+
+# Hyperlinks
+-------
+
+<!--- To format an  URL: [Alt Text](url) --->
+<!--- Firstly put the "Alternative Text" enclosed by square braces "[]" --->
+<!--- Note: the "Alternative Text" is optional. --->
+<!--- Next, encapsulate the URL in parentheses "()" --->
+To include a hyperlink to a URL use the format: "[Alt Text](url)"
+e.g. [GitHub](https://www.github.com)
+<!--- If you only encapsulate the URL in parentheses "()" --->
+<!--- GitHub will automagically recognise the link --->
+Or you can just enter the URL with no special tagging:
+e.g. https://www.github.com
+
+
+
+
+
+
+
+
+
+
 
 - [x] some item
 - [ ] another item with meta info [//]: # (attempt at meta info as inline comment)
