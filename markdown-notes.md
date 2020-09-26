@@ -173,10 +173,7 @@ Every sub point is marked up with an hyphen, preceded by TWO character spaces.
 ### Task List Example 2
 -----------------------
 
-- [x] This is a complete item
-- [ ] This is an incomplete item
-
-- [x] @mentions, #refs, [links](), **formatting**, and <del>tags</del> supported
+- [x] @mentions, \#refs, \[links\](), \**formatting\**, and <del>tags</del> supported
 - [x] list syntax required (any unordered or ordered list supported)
 - [x] this is a complete item
 - [ ] this is an incomplete item
@@ -218,25 +215,25 @@ With plugins it is also possible to begin & end each row with a pipe |
 <!--- Note: the "Alternative Text" is optional. --->
 <!--- The "square braces[] are mandatory. --->
 <!--- Lastly, encapsulate the URL in parentheses "()" --->
- To include a link to an image use the format: "![Alt Text](url)"
+ To include a link to an image use the format: "\!\[Alt Text\]\(URL\)"
 
 ### Image Example 1
 -------------
+![kestrel](https://github.com/PhilManLearnsTo/Hello-World/blob/master/images/MAN_0389-lo-res.jpg)
 
 <!--- This example is image linked by it's internet URL --->
-This example image is linked by it's internet URL:
+Image example 1 is linked by its internet URL:
 
 "https://github.com/PhilManLearnsTo/Hello-World/blob/master/images/MAN_0389-lo-res.jpg"
-![kestrel](https://github.com/PhilManLearnsTo/Hello-World/blob/master/images/MAN_0389-lo-res.jpg)
 
 ### Image Example 2
 -------------
+![cormorant](images/MAN_9988-lo-res.jpg)
 
 <!--- This example is image linked by it's internet URL --->
-This example image is linked by local path:
+Image example 2 is linked by its local path within the repository:
 
 "images/MAN_9988-lo-res.jpg"
-![cormorant](images/MAN_9988-lo-res.jpg)
 
 # Hyperlinks
 -------
