@@ -28,14 +28,14 @@ _String encapsulated by underscores (\_) become italicized_
 <!--- strings encapsulated by double asterisks or double underscores become bold --->
 __String encapsulated by double underscores (\_\_) become bold__
 
-<!--- strings encapsulated by double asterisks and single underscores become bold italic--->
-_**String encapsulated by double asterisks (\*\*) and single underscores (\_) become bold italic**_
-<!--- strings encapsulated by double underscores or single asterisks become bold italic--->
-*__String encapsulated by double underscores (\_\_) and single asterisks (\*) become bold italic__*
 <!--- strings encapsulated by triple asterisks become bold italic--->
 ***String encapsulated by triple asterisks (\*\*\*) become bold italic***
 <!--- strings encapsulated by triple underscores become bold italic--->
 ___String encapsulated by triple underscores (\_\_\_) become bold italic___
+<!--- strings encapsulated by double asterisks and single underscores become bold italic--->
+_**String encapsulated by double asterisks (\*\*) and single underscores (\_) become bold italic**_
+<!--- strings encapsulated by double underscores or single asterisks become bold italic--->
+*__String encapsulated by double underscores (\_\_) and single asterisks (\*) become bold italic__*
 
 
 
