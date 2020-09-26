@@ -150,14 +150,16 @@ Every sub point is marked up with an hyphen, preceded by TWO character spaces.
 
 <!--- This example is image linked by it's internet URL --->
 This example is image linked by it's internet URL:
+(\https://github.com/PhilManLearnsTo/Hello-World/blob/master/images/MAN_0389-lo-res.jpg)
 ![kestrel](https://github.com/PhilManLearnsTo/Hello-World/blob/master/images/MAN_0389-lo-res.jpg)
 
 ### Image Example 2
 -------------
 
 <!--- This example is image linked by it's internet URL --->
-This example is image linked by it's internet URL:
-![kestrel](images/MAN_9988-lo-res.jpg)
+This example is image linked by local path:
+(\images/MAN_9988-lo-res.jpg)
+![cormorant](images/MAN_9988-lo-res.jpg)
 
 - [x] some item
 - [ ] another item with meta info [//]: # (attempt at meta info as inline comment)
