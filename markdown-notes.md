@@ -53,9 +53,12 @@ _**Strings encapsulated by double asterisks (\*\*) and single underscores (\_) b
 
 <!--- This example is an ordered or numbered list --->
 This example is an ordered or numbered list.\
+<!--- Each item is started with a number. --->
 Each item is started with a number.\
+<!--- Every sub item is marked up as "1.", not as 'i", "ii", "iii" , etc. --->
 Every sub item is marked up as "1.", not as 'i", "ii", "iii" , etc.\
-(This seems counterintuitive to me)
+<!--- (This seems counterintuitive to me) --->
+
 
 <!--- The sub item cannot be denoted by any character other than 1 which seems stupid --->
 1. One
