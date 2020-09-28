@@ -1,2 +1,2 @@
-[NEXT>](../previous-directory/previous-file.md)
+[<PREV](../previous-directory/previous-file.md)
 [NONE](nothing-here.md)
